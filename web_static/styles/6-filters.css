@@ -67,14 +67,14 @@
     list-style: none;
     margin-bottom: 5px;
 }
-.popover li ul{
-    padding-left: 25px;
-}
 
 .popover li ul ul{
-    padding-left: 25px;
+    padding-left: 30px;
 }
 .popover ul h2 {
     font-size: 16px;
-    margin: 20px 0px 5px;
+    margin: 25px 0px 5px;
+}
+.popover li ul{
+    padding-left: 30px;
 }
