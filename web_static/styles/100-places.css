@@ -97,3 +97,79 @@ article{
   text-align:center;
   margin-bottom: 5px;
 }
+
+
+
+
+
+.places .amenities,
+.places .reviews {
+  margin-top: 40px;
+  width: 100%;
+  height: inherit;
+}
+
+.places .amenities ul,
+.places .reviews ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.places .amenities h2,
+.places .reviews h2 {
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.places .reviews h3 {
+  font-size: 14px;
+}
+
+.places .reviews p {
+  font-size: 12px;
+}
+
+
+
+
+
+.places_pet {
+  background-image: url(../images/icon_pets.png);
+}
+.places_tv {
+  background-image: url(../images/icon_tv.png);
+}
+.places_wifi {
+  background-image: url(../images/icon_wifi.png);
+}
+
+
+.amenities h2{
+  font-size: 16px;
+}
+
+.amenities p{
+  margin-left: 10px; 
+}
+.amenities ul li{
+  align-content: center;
+  margin-bottom: 25px;
+  align-items: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  }
+
+
+
+.places_tv,
+.places_pet,
+.places_wifi {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
